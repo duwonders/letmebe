@@ -45,11 +45,11 @@
 		  	</li>
 		  	<?php } ?>
 		  	<li class="lsit-group">
-		  		<a href="" class="list-group-item" data-toggle="modal" data-target=".bs-modal-signUp">点击添加管理员
+		  		<a href="" class="list-group-item" data-toggle="modal" data-target=".bs-modal-signUp1">点击添加管理员
 		  			<span class="glyphicon glyphicon-plus"></span>
 		  		</a>
 		  	</li>
-		  	<div class="modal fade bs-modal-signUp" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+		  	<div class="modal fade bs-modal-signUp1" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
 			  <div class="modal-dialog">
 			    <div class="modal-content">
 			      <div class="modal-header">
