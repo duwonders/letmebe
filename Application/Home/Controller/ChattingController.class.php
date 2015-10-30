@@ -118,7 +118,7 @@ class ChattingController extends Controller {
         $silented_limit = $limit[0]['limit'];
         if($doer_limit < $silented_limit){         //判断执行人权限是否够
             $status = M('all')->field('status')->where($where)->select();
-            if($status[0]['status']){               //如果为1禁言，如果为2解除禁言
+            if($status[0]['status']){               //如果为1禁言，如果为0解除禁言
                 $save = [
                     'status'=>0,
                 ];
